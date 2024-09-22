@@ -78,12 +78,11 @@ const DesktopView = () => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsMounted(true); // This will ensure rendering only happens on the client side.
+    setIsMounted(true); 
   }, []);
 
 
   if (!isMounted) {
-    // Return null or some placeholder if the component is not yet mounted
     return null;
   }
 
