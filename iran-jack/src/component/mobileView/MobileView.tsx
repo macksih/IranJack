@@ -66,7 +66,7 @@ interface ChartProps {
             <Image src={profile} width={32} height={32} alt="profile" />
             <span className="ml-3 text-black">Van Arsdel</span>
           </div>
-          <div className="flex items-center ml-4 mt-4">
+          <div className="flex items-center mr-4 mt-4">
             <Image src={bot} width={24} height={24} alt="bot" />
             <Image src={horizontal} width={24} height={24} alt="horizontal" className="ml-2" />
           </div>
